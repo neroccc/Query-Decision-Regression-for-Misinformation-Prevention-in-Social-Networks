@@ -5,21 +5,21 @@ This repository consists of 2 methods, namely, MetaLearner, StratLearner [(Strat
 
 ## MetaLearner
 We have the code for training MetaLeraner is Soup_train.py. It includes the implement of the Sampling modification and Function estimation. We also have the code reproduce the results shown in the paper is auto.py 
-## Usage
-### Run 
+### Usage
+#### Run 
 ```
 cd MetaLearner
 python3 Soup_train.py
 python3 auto.py
 ```
 
-### Data
+#### Data
 The data used in the paper isin folder named `data/`.
 Each folder is corresponded to a social network structure. The query-decison pairs and ground truth social network can be found in it.
 ## StratLearner
 We have the code for training MetaLeraner is train.py. We also have the code reproduce the results shown in the paper is sauto.py  
-## Usage
-### Run 
+### Usage
+#### Run 
 ```
 cd MetaLearner
 python3 train.py
