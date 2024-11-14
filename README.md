@@ -4,7 +4,7 @@ This repository contains the code for the experiment in the paper entitled Query
 This repository consists of 2 methods, namely, MetaLearner, StratLearner [(StratLearner)]([https://github.com/Microsoft/Graphormer](https://github.com/cdslabamotong/stratLearner/tree/master)). The implement of MetaLeraner, StratLearner are in the MetaLearner folder in this repository
 
 ## MetaLearner
-We have the code for training MetaLeraner as Soup_train.py. It includes the implementation of the Sampling modification and Function estimation. We also have the code reproduce the results shown in the paper as auto.py 
+We have the code for training MetaLeraner as Soup_train.py. It includes the implementation of the Sampling modification and Function estimation. We also have the code reproducing the results shown in the paper as auto.py 
 ### Usage
 #### Run 
 ```
@@ -17,7 +17,7 @@ python3 auto.py
 The data used in the paper is in the folder named `data/`.
 Each folder corresponds to a social network structure. The query-decision pairs and ground truth social network can be found in it.
 ## StratLearner
-We have the code for training MetaLeraner as train.py. We also have the code reproduce the results shown in the paper in sauto.py  
+We have the code for training MetaLeraner as train.py. We also have the code reproducing the results shown in the paper in sauto.py  
 ### Usage
 #### Run 
 ```
