@@ -1,0 +1,12 @@
+kro
+StratLearner
+error_abs: 11.540393518518519 +- 5.60525532135611
+error_ratio: 0.3900118825248366 +- 0.21788928462038998
+reduce_percent_opt: 0.6130337512900136 +- 0.06452987393808059
+reduce_percent_pre: 0.4685217349909455 +- 0.08367825519392554
+com_to_opt: 0.7630362771335396 +- 0.10261019667384846
+
+featureNum:40, featureGenMethod: soup, c:0.01 balance_para: 1000
+trainNum:108, testNum:270, infTimes:1024 
+loss_type:area, LAI_method:fastLazy, 
+===============================================================
